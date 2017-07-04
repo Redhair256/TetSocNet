@@ -37,10 +37,18 @@
             "php artisan key:generate"
         ],
         "post-install-cmd": [
+            "rm -rf ./public/vendor/bootstrap",
+            "mkdir -p ./public/vendor/bootstrap",
+ "cp -r ./vendor/twbs/bootstrap/dist ./public/vendor/bootstrap",
+
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
             "php artisan optimize"
         ],
         "post-update-cmd": [
+            "rm -rf ./public/vendor/bootstrap",
+            "mkdir -p ./public/vendor/bootstrap",
+            "cp -r ./vendor/twbs/bootstrap/dist ./public/vendor/bootstrap",
+
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize"
         ]
