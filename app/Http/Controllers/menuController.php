@@ -11,10 +11,10 @@ class menuController extends Controller
      *
      * @return void
      */
-    public function viewMenu()
+    public function ViewMenu()
     {
         //
-        return view('menu');
+        return view('Menu');
 
     }
 
