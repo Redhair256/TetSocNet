@@ -14,4 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/menu', 'MenuController@ViewMenu')->name('showMenu');
+Route::get('/menu', 'MenuController@ViewMenu')->name('mainMenu');
+Route::get('/userMenu', 'UserMenuController@ViewMenu')->name('userMenu');
