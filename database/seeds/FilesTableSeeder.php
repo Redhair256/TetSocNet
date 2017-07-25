@@ -12,5 +12,13 @@ class FilesTableSeeder extends Seeder
     public function run()
     {
         //
+        /*
+        Files::create([
+        	'id' => ,
+            'name' => ,
+            'file_size' => ,
+            'token' => ,
+        ]);
+        */
     }
 }

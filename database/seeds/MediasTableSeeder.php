@@ -12,5 +12,16 @@ class MediasTableSeeder extends Seeder
     public function run()
     {
         //
+        /*
+        Medias::create([
+        	'id' => ,
+            'title' => ,
+            'file_type' => ,
+            'description' => ,
+            'user_id' => ,
+            'post_id' => ,
+            'file_id' => 
+        ]);
+        */
     }
 }

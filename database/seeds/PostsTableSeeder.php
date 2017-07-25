@@ -12,5 +12,13 @@ class PostsTableSeeder extends Seeder
     public function run()
     {
         //
+    	/*
+    	PostsTable::create([
+        	'id' => ,
+            'title' => ,
+            'user_id' => ,
+            'access_level_id' => 
+        ]);
+        */
     }
 }

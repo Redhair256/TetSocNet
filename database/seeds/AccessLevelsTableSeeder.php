@@ -12,5 +12,12 @@ class AccessLevelsTableSeeder extends Seeder
     public function run()
     {
         //
+        /*
+        AccessLevels::create([
+        	'id' => ,
+            'title' => ,
+            'discription' => 
+            ]);
+        */
     }
 }

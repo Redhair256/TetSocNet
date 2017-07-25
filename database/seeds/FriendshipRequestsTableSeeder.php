@@ -12,5 +12,13 @@ class FriendshipRequestsTableSeeder extends Seeder
     public function run()
     {
         //
+        /*
+    	FriendshipRequests::create([
+        	'id'=> ,
+            'requested_by'=> ,
+            'received_by'=> ,
+            'req_text'=> 
+           ]);
+        */
     }
 }

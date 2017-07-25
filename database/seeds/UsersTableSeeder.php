@@ -12,5 +12,15 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         //
+        /*
+        Users::create([
+        	'id'=> ,
+            'name'=> ,
+            'email'=> ,
+            'password'=> ,
+            'remember_token'=> ,
+            'created_at'=> 
+        ]);
+       	*/
     }
 }
