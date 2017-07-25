@@ -18,8 +18,6 @@ class CreateFilesTable extends Migration
             $table->char('name', 128);
             $table->integer('file_size');
             $table->char('token', 64);
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
         });
     }
 

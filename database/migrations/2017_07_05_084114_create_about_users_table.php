@@ -19,10 +19,8 @@ class CreateAboutUsersTable extends Migration
             $table->char('username', 32);
             $table->char('email', 64);
             $table->boolean('gender');
-            $table->char('about', 512);
+            $table->text('about', 1024);
             $table->integer('avatar_id');
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
         });
     }
 

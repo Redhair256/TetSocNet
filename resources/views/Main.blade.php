@@ -3,10 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>EasyExange</title>
-        <link rel="stylesheet" href={{ asset('vendor/bootstrap/css/bootstrap.min.css') }} > 
+    <link rel="stylesheet" href={{ asset('vendor/bootstrap/css/bootstrap.min.css') }} > 
     </head>
-    <body bgcolor="F6F6F6">
-    @if (Auth::guest())
+    <body bgcolor=00FFFF>
     <nav class="navbar navbar-default" role="navigation">
       <div class="container">
       <ul class="nav navbar-nav">
@@ -22,14 +21,9 @@
         </ul>
       </div>
     </nav>
-    @else
-      main frame for user.
-
-    @endif
-
-
+    main frame
        <!-- Scripts -->
      	<script type="text/javascript" src={{ asset('vendor/components/jquery/jquery.min.js') }}></script>
      	<script type="text/javascript" src={{ asset('vendor/bootstrap/js/bootstrap.min.js') }}></script>
-    </body>
+     </body>
 </html>

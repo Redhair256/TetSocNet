@@ -15,8 +15,8 @@ class CreateAuthorizedUsersTable extends Migration
     {
         Schema::create('authorized_users', function (Blueprint $table) {
             $table->increments('id');
-            $table->is_integer('user_id');
-            $table->is_integer('post_id');
+            $table->integer('user_id');
+            $table->integer('post_id');
             $table->timestamps('created_at');
         });
     }

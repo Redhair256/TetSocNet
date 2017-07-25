@@ -18,8 +18,6 @@ class CreateFriendshipsTable extends Migration
             $table->integer('user_id');
             $table->integer('user_id_2');
             $table->integer('avatar_id');
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
         });
     }
 

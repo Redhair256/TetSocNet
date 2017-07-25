@@ -12,7 +12,15 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('base');
 });
-Route::get('/menu', 'MenuController@ViewMenu')->name('mainMenu');
+
+Route::get('/home', 'MainController@ViewHome')->name('home');
+
+Route::get('/main', 'MainController@ViewMenu')->name('mainPage');
+
 Route::get('/userMenu', 'UserMenuController@ViewMenu')->name('userMenu');
+
+Auth::routes();
+
+

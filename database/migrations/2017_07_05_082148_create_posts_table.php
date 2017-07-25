@@ -18,8 +18,6 @@ class CreatePostsTable extends Migration
             $table->char('title', 128);
             $table->integer('user_id');
             $table->integer('access_level_id');
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
         });
     }
 

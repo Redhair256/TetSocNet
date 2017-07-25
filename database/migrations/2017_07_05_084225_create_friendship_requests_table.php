@@ -17,9 +17,8 @@ class CreateFriendshipRequestsTable extends Migration
             $table->increments('id');
             $table->char('requested_by', 32);
             $table->char('received_by', 32);
-            $table->char('req_text', 512);
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
+            $table->text('req_text', 512);
+            
         });
     }
 

@@ -16,9 +16,7 @@ class CreateAccessLevelsTable extends Migration
         Schema::create('access_levels', function (Blueprint $table) {
             $table->increments('id');
             $table->char('title', 32);
-            $table->char('discription', 256);
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
+            $table->char('discription', 255);
         });
     }
 
