@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Route::get('/home', 'MainController@ViewHome')->name('home');
 
-Route::get('/main', 'MainController@ViewMenu')->name('mainPage');
+Route::get('/main', 'MainController@ViewHome')->name('mainPage');
 
 Route::get('/userMenu', 'UserMenuController@ViewMenu')->name('userMenu');
 
