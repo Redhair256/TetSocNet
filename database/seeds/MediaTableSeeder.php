@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class MediasTableSeeder extends Seeder
+class MediaTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,7 +13,7 @@ class MediasTableSeeder extends Seeder
     {
         //
         /*
-        Medias::create([
+        Media::create([
         	'id' => ,
             'title' => ,
             'file_type' => ,
