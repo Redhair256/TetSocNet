@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class Media extends Model
 {
-    //
+    //ссылка на медийный фаил.
 }
