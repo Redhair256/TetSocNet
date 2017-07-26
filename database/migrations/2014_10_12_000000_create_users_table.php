@@ -18,7 +18,7 @@ class CreateUsersTable extends Migration
             $table->string('name', 64)->unique();
             $table->string('email', 64)->unique();
             $table->string('password', 64);
-            $table->string('remember_token', 64);
+            $table->string('remember_token', 64)->nullable();
             $table->timestamps('created_at');
         });
     }
